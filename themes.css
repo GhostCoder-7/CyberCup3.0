@@ -1,6 +1,11 @@
 body{
+    background-color: black;
+    color: white;
+}
+
+#Home-page{
     height: 100vh;
-    background-image: url("./CyberCup3.0/12804207_5073414.jpg");
+    background-image: url("./CyberCup3.0/milad-fakurian-wNsHBf_bTBo-unsplash.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -12,46 +17,51 @@ body{
 .home{
      text-align: center;
 
+
 }
 .heading{
     text-align: center;
     padding-top: 200px;
     color: white;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 90px;
+    font-size: 100px;
 
 }
 
-.heading2{
-    color: white;
-    text-align: center;
 
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 50px;
+.ps-1-image, .ps-2-image, .ps-3-image{
+    padding: 200px;
 }
 
-.btn {
-    -webkit-border-radius: 10;
-    -moz-border-radius: 10;
-    border-radius: 10px;
-    font-family: Arial;
-    color: #000000;
-    font-size: 30px;
-    background: #ffffff;
-    padding: 10px 20px 10px 20px;
-    border: solid #000000 2px;
-    text-decoration: none;
-    margin-top: 10px;
-  }
-  
-  .btn:hover {
-    background: #000000;
-    text-decoration: none;
-    border: solid #ffffff 2px;
-    color: #ffffff;
-  }
-.social-media{
-    margin: 30px;
-    height: 60px;
-    width: 60px;
+.ps-1, .ps-2, .ps-3{
+    padding: 300px 150px 0 0;
+    text-align: justify;
+    font-size: 22px;
 }
+
+.floating { 
+	animation-name: floating;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 15px); }
+	100% { transform: translate(0, -0px); } 
+}
+
+@media (max-width: 900px){
+    .ps-1, .ps-2, .ps-3{
+        padding: 150px 10px 0 10px;
+        text-align: justify;
+        font-size: 22px;
+    }
+    .ps-1-image, .ps-2-image, .ps-3-image{
+        padding: 10px;
+    }
+}
+
+
+

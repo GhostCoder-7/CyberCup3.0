@@ -540,6 +540,12 @@ background-image: url(./CyberCup3.0/united_1534938.png);
   opacity: 1;
 }
 
+.last-date{
+  color: white;
+  font-size: 52px;
+  font-family:technorace;
+}
+
 @keyframes animate
 {
   0%, 100%
