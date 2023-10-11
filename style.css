@@ -630,6 +630,30 @@ background-image: url(./CyberCup3.0/united_1534938.png);
   font-size: 18px;
 }
 
+.faculty-remark-img{
+  padding: 40px;
+}
+
+#Sponsors{
+  text-align: center;
+}
+
+.sponsor-logo{
+  margin: 50px 0 50px 0;
+}
+
+.floating { 
+	animation-name: floating;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 15px); }
+	100% { transform: translate(0, -0px); } 
+}
 
 :root {
   --accent-color: #a876aa;
